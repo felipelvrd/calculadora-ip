@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="formComponentShown"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="TIp" min="-2" max="-2" attributes="0"/>
+                  <Component id="TMk" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="BGenerarM" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="BGenerar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="BLimpiar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="BOk" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TIp" min="-2" pref="69" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TMk" min="-2" pref="69" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BLimpiar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BOk" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BGenerar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BGenerarM" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="TIp">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="IpDec">
+          <Events>
+            <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="IpDecComponentShown"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="IP Decimal">
+                <Property name="tabTitle" type="java.lang.String" value="IP Decimal"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                      <Component id="v1" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="v2" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="v3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="v4" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace pref="102" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="v3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="v2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="v4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="v1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="v4">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="3" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="v4.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        ipField.RestricionDec(evt);&#xa;    }&#xa;});&#xa;v4.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;    public void focusLost(java.awt.event.FocusEvent evt) {&#xa;        ipField.check(evt);&#xa;    }&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="v2">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="1" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="v2.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        ipField.RestricionDec(evt);&#xa;    }&#xa;});&#xa;v2.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;    public void focusLost(java.awt.event.FocusEvent evt) {&#xa;        ipField.check(evt);&#xa;    }&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="v3">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="2" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="v3.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        ipField.RestricionDec(evt);&#xa;    }&#xa;});&#xa;v3.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;    public void focusLost(java.awt.event.FocusEvent evt) {&#xa;        ipField.check(evt);&#xa;    }&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="v1">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="v1.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        ipField.RestricionDec(evt);&#xa;    }&#xa;});&#xa;&#xa;v1.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;    public void focusLost(java.awt.event.FocusEvent evt) {&#xa;        ipField.check(evt);&#xa;        ipField.GuardarDec(v1, v2, v3, v4);&#xa;        ipField.setMask(v1, m1, m2, m3, m4, mb1, mb2, mb3, mb4, TMk,BGenerarM);&#xa;    }&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="IPBin">
+          <Events>
+            <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="IPBinComponentShown"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="IP Binario">
+                <Property name="tabTitle" type="java.lang.String" value="IP Binario"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="14" max="32767" attributes="0"/>
+                      <Component id="vb1" min="-2" pref="77" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="vb2" min="-2" pref="77" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="vb3" min="-2" pref="77" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="vb4" min="-2" pref="77" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vb1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vb2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vb3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vb4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="vb2">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="vb2.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        ipField.RestricionBin(evt);&#xa;    }&#xa;&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="vb3">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="vb3.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        ipField.RestricionBin(evt);&#xa;    }&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="vb4">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="vb4.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        ipField.RestricionBin(evt);&#xa;    }&#xa;&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="vb1">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="vb1.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        ipField.RestricionBin(evt);&#xa;    }&#xa;&#xa;});&#xa;vb1.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;    public void focusLost(java.awt.event.FocusEvent evt) {&#xa;        ipField.GuardarBin(vb1, vb2, vb3, vb4);&#xa;        ipField.setMask(vb1, m1, m2, m3, m4, mb1, mb2, mb3, mb4, TMk,BGenerarM);&#xa;    }&#xa;});"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JTabbedPane" name="TMk">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="MkDec">
+          <Events>
+            <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="MkDecComponentShown"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="M&#xe1;scara Decimal">
+                <Property name="tabTitle" type="java.lang.String" value="M&#xe1;scara Decimal"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                      <Component id="m1" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="m2" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="m3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="m4" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace pref="102" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="m3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="m2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="m4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="m1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="m4">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="3" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="m4.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        maskField.RestricionDec(evt);&#xa;    }&#xa;});&#xa;m4.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;    public void focusLost(java.awt.event.FocusEvent evt) {&#xa;        maskField.check(evt);&#xa;    }&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="m2">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="1" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="m2.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        maskField.RestricionDec(evt);&#xa;    }&#xa;});&#xa;m2.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;    public void focusLost(java.awt.event.FocusEvent evt) {&#xa;        maskField.check(evt);&#xa;    }&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="m3">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="2" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="m3.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        maskField.RestricionDec(evt);&#xa;    }&#xa;});&#xa;m3.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;    public void focusLost(java.awt.event.FocusEvent evt) {&#xa;        maskField.check(evt);&#xa;    }&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="m1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="m1.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        maskField.RestricionDec(evt);&#xa;    }&#xa;});&#xa;&#xa;m1.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;    public void focusLost(java.awt.event.FocusEvent evt) {&#xa;        maskField.check(evt);&#xa;    }&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="MkBin">
+          <Events>
+            <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="MkBinComponentShown"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="M&#xe1;scara Binario">
+                <Property name="tabTitle" type="java.lang.String" value="M&#xe1;scara Binario"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace pref="14" max="32767" attributes="0"/>
+                      <Component id="mb1" min="-2" pref="77" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="mb2" min="-2" pref="77" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="mb3" min="-2" pref="77" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Component id="mb4" min="-2" pref="77" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mb1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mb2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mb3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mb4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="mb2">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="mb2.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        maskField.RestricionBin(evt);&#xa;    }&#xa;&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="mb3">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="mb3.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        maskField.RestricionBin(evt);&#xa;    }&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="mb4">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="mb4.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        maskField.RestricionBin(evt);&#xa;    }&#xa;&#xa;});"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="mb1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="mb1.addKeyListener(new java.awt.event.KeyAdapter() {&#xa;    public void keyTyped(java.awt.event.KeyEvent evt) {&#xa;        maskField.RestricionBin(evt);&#xa;    }&#xa;&#xa;});"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="BLimpiar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpiar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BLimpiarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BOk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BOkActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BGenerar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Generar Ip"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BGenerarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BGenerarM">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Generar M&#xe1;scara"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BGenerarMActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
